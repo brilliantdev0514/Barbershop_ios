@@ -39,47 +39,56 @@ class ViewController: UIViewController {
 
             self.present(alert, animated: true)
         }else{
-            //MARK:- send verify code to users phone
-            guard let phoneNum = phone.text else {
-                return
-            }
-            let defaults = UserDefaults.standard
-            
-            defaults.set(phoneNum, forKey: "phonenum")
-            
-            
-            let alertController = UIAlertController(title: "Phone Number", message: "Is this your phone number? \n \(phone.text!)", preferredStyle: .alert)
-                    
-                    let action = UIAlertAction(title: "Yes", style: .default) { (UIAlertAction) in
-                        PhoneAuthProvider.provider().verifyPhoneNumber(("+1"+phoneNum), uiDelegate: nil) { (verificationID, error) in
-                            ModelData.shared.phoneNumber = phoneNum
-                            
-                            if error != nil {
-                            //MARK: wrong phone number action
-                            self.Toast(Title: "Warning!", Text: "You can't verify via this number. Please again input correctly.", delay: 2)
-                            }
-                            //MARK: phone number is right
-                           else {
-                                let defaults = UserDefaults.standard
-                                defaults.set(verificationID, forKey: "authID")
-                                //MARK: go to verify ViewController
-                                ModelData.shared.userName = self.name.text!
-                                let toverifiVC = self.storyboard?.instantiateViewController(withIdentifier: "VerifyViewController") as! VerifyViewController
-                            self.navigationController?.pushViewController(toverifiVC, animated: true)
-                                
-                            }
-                        }
+            //MARK:- auth status check
+            if Auth.auth().currentUser != nil{
+                ModelData.shared.userName = self.name.text!
+                ModelData.shared.phoneNumber = self.phone.text!
+                let todirect = self.storyboard?.instantiateViewController(withIdentifier: "ClientViewController") as! ClientViewController
+                self.navigationController?.pushViewController(todirect, animated: true)
+            }else{
+                //MARK:- send verify code to users phone
+                    guard let phoneNum = phone.text else {
+                        return
                     }
+                    let defaults = UserDefaults.standard
                     
-                    let cancel = UIAlertAction(title: "No", style: .cancel, handler: nil)
+                    defaults.set(phoneNum, forKey: "phonenum")
                     
-                    alertController.addAction(action)
-                    alertController.addAction(cancel)
                     
-                    self.present(alertController, animated: true, completion: nil)
+                    let alertController = UIAlertController(title: "Phone Number", message: "Is this your phone number? \n \(phone.text!)", preferredStyle: .alert)
+                            
+                            let action = UIAlertAction(title: "Yes", style: .default) { (UIAlertAction) in
+                                PhoneAuthProvider.provider().verifyPhoneNumber(("+1"+phoneNum), uiDelegate: nil) { (verificationID, error) in
+                                    ModelData.shared.phoneNumber = phoneNum
+                                    
+                                    if error != nil {
+                                    //MARK: wrong phone number action
+                                    self.Toast(Title: "Warning!", Text: "You can't verify via this number. Please again input correctly.", delay: 2)
+                                    }
+                                    //MARK: phone number is right
+                                   else {
+                                        let defaults = UserDefaults.standard
+                                        defaults.set(verificationID, forKey: "authID")
+                                        //MARK: go to verify ViewController
+                                        ModelData.shared.userName = self.name.text!
+                                        let toverifiVC = self.storyboard?.instantiateViewController(withIdentifier: "VerifyViewController") as! VerifyViewController
+                                    self.navigationController?.pushViewController(toverifiVC, animated: true)
+                                        
+                                    }
+                                }
+                            }
+                            
+                            let cancel = UIAlertAction(title: "No", style: .cancel, handler: nil)
+                            
+                            alertController.addAction(action)
+                            alertController.addAction(cancel)
+                            
+                            self.present(alertController, animated: true, completion: nil)
+                    
+                    
+                }
+            }
             
-            
-        }
         
     }
     //MARK:- go to admin channel via admin key : 2580
@@ -102,12 +111,7 @@ class ViewController: UIViewController {
         
         //the cancel action doing nothing
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in
-            if Auth.auth().currentUser != nil{
-                let todirect = self.storyboard?.instantiateViewController(withIdentifier: "ClientViewController") as! ClientViewController
-                self.navigationController?.pushViewController(todirect, animated: true)
-            }else{
-                return
-            }
+            
         }
         
         //adding textfields to our dialog box

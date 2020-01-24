@@ -240,6 +240,11 @@ extension BarberViewController: UITableViewDelegate, UITableViewDataSource {
         cell.listname.text = self.usersDic[indexPath.row].userName!
         cell.bookingTime.text = self.usersDic[indexPath.row].requestTime!
         cell.statusBtnLabel.setTitle(self.usersDic[indexPath.row].state!, for: .normal)
+        //border color setting
+        cell.layer.borderWidth = 3
+        cell.layer.borderColor = UIColor.gray.cgColor
+        
+        //button event check
         if self.usersDic[indexPath.row].state == "REQUESTED" {
             cell.statusBtnLabel.setTitleColor(UIColor.yellow, for: .normal)
         }else if self.usersDic[indexPath.row].state == "STARTED" {

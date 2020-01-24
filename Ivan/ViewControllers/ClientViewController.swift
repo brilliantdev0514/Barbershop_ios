@@ -162,6 +162,15 @@ extension ClientViewController: UITableViewDelegate, UITableViewDataSource {
         cell.listname.text = self.usersDic[indexPath.row].userName!
         cell.bookingTime.text = self.usersDic[indexPath.row].requestTime!
         cell.statusBtnLabel.setTitle(self.usersDic[indexPath.row].state!, for: .normal)
+        //border color setting
+        cell.layer.borderWidth = 3
+        cell.layer.borderColor = UIColor.gray.cgColor
+        let userID = Auth.auth().currentUser!.uid
+        if usersDic[indexPath.row].uid == userID {
+            cell.layer.borderWidth = 3
+            cell.layer.borderColor = UIColor.red.cgColor
+        }
+        //status change
         if self.usersDic[indexPath.row].state == "REQUESTED" {
             cell.statusBtnLabel.setTitleColor(UIColor.yellow, for: .normal)
         }

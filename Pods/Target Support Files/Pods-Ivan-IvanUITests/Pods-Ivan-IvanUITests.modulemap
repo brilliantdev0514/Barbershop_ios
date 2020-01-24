@@ -1,0 +1,6 @@
+framework module Pods_Ivan_IvanUITests {
+  umbrella header "Pods-Ivan-IvanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

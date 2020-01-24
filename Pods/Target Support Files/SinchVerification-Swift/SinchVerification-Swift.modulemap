@@ -1,0 +1,6 @@
+framework module SinchVerification {
+  umbrella header "SinchVerification-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

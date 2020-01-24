@@ -14,6 +14,5 @@ class UserListTableViewCell: UITableViewCell {
     @IBOutlet weak var listname: UILabel!
     @IBOutlet weak var statusBtnLabel: UIButton!
     @IBOutlet weak var bookingTime: UILabel!
-
     
 }

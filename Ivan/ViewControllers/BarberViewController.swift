@@ -204,11 +204,7 @@ class BarberViewController: UIViewController{
                     self.ref.child("user").child(uidstring).updateChildValues(["state": "COMPLETED"])
                 }
             }
-            
-            
-
         }
-        
     }
     //show Toast func
     func Toast(Title:String ,Text:String, delay:Int) -> Void {
@@ -219,7 +215,6 @@ class BarberViewController: UIViewController{
             alert.dismiss(animated: true, completion: nil)
         })
     }
-    
 }
 //MARK:- tableview controller extension
 extension BarberViewController: UITableViewDelegate, UITableViewDataSource {
@@ -240,11 +235,12 @@ extension BarberViewController: UITableViewDelegate, UITableViewDataSource {
         cell.listname.text = self.usersDic[indexPath.row].userName!
         cell.bookingTime.text = self.usersDic[indexPath.row].requestTime!
         cell.statusBtnLabel.setTitle(self.usersDic[indexPath.row].state!, for: .normal)
+        //border radius set
+        cell.layer.cornerRadius = 8
         //border color setting
-        cell.layer.borderWidth = 3
+        cell.layer.borderWidth = 1
         cell.layer.borderColor = UIColor.gray.cgColor
-        
-        //button event check
+
         if self.usersDic[indexPath.row].state == "REQUESTED" {
             cell.statusBtnLabel.setTitleColor(UIColor.yellow, for: .normal)
         }else if self.usersDic[indexPath.row].state == "STARTED" {
@@ -293,7 +289,6 @@ extension BarberViewController: UITableViewDelegate, UITableViewDataSource {
             self.present(alert, animated: true, completion: nil)
         }
     }
-    
     
 }
 

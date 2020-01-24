@@ -118,6 +118,8 @@ class ViewController: UIViewController {
         alertController.addTextField { (textField) in
             textField.placeholder = "Enter key"
             textField.keyboardType = UIKeyboardType.phonePad
+            //input mode as center
+            textField.textAlignment = .center
         }
         
         //adding the action to dialogbox

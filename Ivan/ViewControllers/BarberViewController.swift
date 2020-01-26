@@ -50,7 +50,7 @@ class BarberViewController: UIViewController{
                    let status = value["isEnabled"] as! String
                    ModelData.shared.allow = status
                    let allow = status
-                   if allow == "1" {
+                   if allow == "0" {
                     self.adminMind.setTitle("Enable", for: .normal)
                    }else {
                        
@@ -120,7 +120,7 @@ class BarberViewController: UIViewController{
             let status = value["isEnabled"] as! String
             ModelData.shared.allow = status
             let allow = status
-            if allow == "0" {
+            if allow == "1" {
                 //MARK: now is enable hence admin can't clear list
                 let alertController = UIAlertController(title: "Caution!", message: ("Now is Enable. Hence you can't clear order list."), preferredStyle: .alert)
                 let confirmAction = UIAlertAction(title: "Yes", style: .default) { (_) in
@@ -161,13 +161,13 @@ class BarberViewController: UIViewController{
                 let status = value["isEnabled"] as! String
                 ModelData.shared.allow = status
                 let allow = status
-                if allow == "0" {
+                if allow == "1" {
                     //MARK: status change to disable
-                 self.ref.child("isEnabled").setValue("1")
-                 self.adminMind.setTitle("Enable", for: .normal)
-                }else if allow == "1" {
-                    //MARK: status change to enable
                  self.ref.child("isEnabled").setValue("0")
+                 self.adminMind.setTitle("Enable", for: .normal)
+                }else if allow == "0" {
+                    //MARK: status change to enable
+                 self.ref.child("isEnabled").setValue("1")
                  self.adminMind.setTitle("Disable", for: .normal)
                 }
             }

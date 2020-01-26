@@ -106,7 +106,7 @@ class ClientViewController: UIViewController {
             if let value = snapshot.value as? NSDictionary{
                 let status = value["isEnabled"] as! String
                 let allow = status
-                if allow == "0" {
+                if allow == "1" {
                     //booking and save to database
                     
                     let timestamp = NSDate().timeIntervalSince1970

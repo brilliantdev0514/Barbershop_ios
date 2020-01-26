@@ -62,7 +62,7 @@ class ClientViewController: UIViewController {
     //MARK: -read date from firebase database to tableview
     func ReadUserData() {
         
-        ref.child("user").observe(.value, with: { (snapshot) in
+        ref.child("Clients").observe(.value, with: { (snapshot) in
             
             self.usersDic.removeAll()
             
@@ -104,7 +104,7 @@ class ClientViewController: UIViewController {
         ref.observeSingleEvent(of: .value, with: { (snapshot) in
           // Get user value
             if let value = snapshot.value as? NSDictionary{
-                let status = value["ISENABLED"] as! String
+                let status = value["isEnabled"] as! String
                 let allow = status
                 if allow == "0" {
                     //booking and save to database
@@ -113,7 +113,7 @@ class ClientViewController: UIViewController {
                     let userID = Auth.auth().currentUser!.uid
                     let username = ModelData.shared.userName
                     let phone = ModelData.shared.phoneNumber
-                    self.ref.child("user").child(userID).setValue(["userName":username, "orderNumber": timestamp, "requestTime": self.timeLabel.text!, "phoneNumber":phone, "uid":userID, "state": "REQUESTED", "ready": "false"])
+                    self.ref.child("Clients").child(userID).setValue(["userName":username, "orderNumber": timestamp, "requestTime": self.timeLabel.text!, "phoneNumber":phone, "uid":userID, "state": "REQUESTED", "ready": "false"])
                 }else {
                     //booking cancel
                     let alertController = UIAlertController(title: "Caution!", message: ("You can't booking now"), preferredStyle: .alert)
@@ -134,7 +134,7 @@ class ClientViewController: UIViewController {
         let alertController = UIAlertController(title: "Caution!", message: ("Are you sure cancellation?"), preferredStyle: .alert)
         let confirmAction = UIAlertAction(title: "Yes", style: .default) { (_) in
             let userID = Auth.auth().currentUser!.uid
-            self.ref.child("user").child(userID).removeValue()
+            self.ref.child("Clients").child(userID).removeValue()
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in
         }

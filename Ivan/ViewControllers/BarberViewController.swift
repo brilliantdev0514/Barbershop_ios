@@ -47,7 +47,7 @@ class BarberViewController: UIViewController{
                     // Get user value
                if let value = snapshot.value as? NSDictionary {
                    
-                   let status = value["ISENABLED"] as! String
+                   let status = value["isEnabled"] as! String
                    ModelData.shared.allow = status
                    let allow = status
                    if allow == "1" {
@@ -73,7 +73,7 @@ class BarberViewController: UIViewController{
     //MARK: -read date from firebase database to tableview
     func ReadUserData() {
         //firebase data reading to realtime
-        ref.child("user").observe(.value, with: { (snapshot) in
+        ref.child("Clients").observe(.value, with: { (snapshot) in
             
             self.usersDic.removeAll()
            
@@ -117,7 +117,7 @@ class BarberViewController: UIViewController{
              // Get user value
         if let value = snapshot.value as? NSDictionary {
             
-            let status = value["ISENABLED"] as! String
+            let status = value["isEnabled"] as! String
             ModelData.shared.allow = status
             let allow = status
             if allow == "0" {
@@ -132,7 +132,7 @@ class BarberViewController: UIViewController{
                 //MARK: all list clear
                 let alertController = UIAlertController(title: "Caution!", message: ("Are you sure clear order list?"), preferredStyle: .alert)
                 let confirmAction = UIAlertAction(title: "Yes", style: .default) { (_) in
-                    self.ref.child("user").removeValue()
+                    self.ref.child("Clients").removeValue()
                     
                 }
                 let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in
@@ -158,16 +158,16 @@ class BarberViewController: UIViewController{
                  // Get user value
             if let value = snapshot.value as? NSDictionary {
                 
-                let status = value["ISENABLED"] as! String
+                let status = value["isEnabled"] as! String
                 ModelData.shared.allow = status
                 let allow = status
                 if allow == "0" {
                     //MARK: status change to disable
-                 self.ref.child("ISENABLED").setValue("1")
+                 self.ref.child("isEnabled").setValue("1")
                  self.adminMind.setTitle("Enable", for: .normal)
                 }else if allow == "1" {
                     //MARK: status change to enable
-                 self.ref.child("ISENABLED").setValue("0")
+                 self.ref.child("isEnabled").setValue("0")
                  self.adminMind.setTitle("Disable", for: .normal)
                 }
             }
@@ -188,20 +188,20 @@ class BarberViewController: UIViewController{
                 
                 let nextuidstring = self.usersDic[indexpath.row+1].uid!
                 if self.usersDic[indexpath.row].state == "REQUESTED" {
-                    self.ref.child("user").child(uidstring).updateChildValues(["state": "STARTED"])
-                    self.ref.child("user").child(nextuidstring).updateChildValues(["ready": "true"])
+                    self.ref.child("Clients").child(uidstring).updateChildValues(["state": "STARTED"])
+                    self.ref.child("Clients").child(nextuidstring).updateChildValues(["ready": "true"])
                 }
                 if self.usersDic[indexpath.row].state == "STARTED" {
-                    self.ref.child("user").child(uidstring).updateChildValues(["state": "COMPLETED"])
+                    self.ref.child("Clients").child(uidstring).updateChildValues(["state": "COMPLETED"])
                 }
             }else {
                 let uidstring = self.usersDic[indexpath.row].uid!
                 
                 if self.usersDic[indexpath.row].state == "REQUESTED" {
-                    self.ref.child("user").child(uidstring).updateChildValues(["state": "STARTED"])
+                    self.ref.child("Clients").child(uidstring).updateChildValues(["state": "STARTED"])
                 }
                 if self.usersDic[indexpath.row].state == "STARTED" {
-                    self.ref.child("user").child(uidstring).updateChildValues(["state": "COMPLETED"])
+                    self.ref.child("Clients").child(uidstring).updateChildValues(["state": "COMPLETED"])
                 }
             }
         }
@@ -264,7 +264,7 @@ extension BarberViewController: UITableViewDelegate, UITableViewDataSource {
         let deleteAction = UIAlertAction(title: "Remove", style: .default) { (_) in
             
             let userUID = self.usersDic[indexPath.row].uid
-            self.ref.child("user").child(userUID!).removeValue()
+            self.ref.child("Clients").child(userUID!).removeValue()
         }
         
         //the cancel action doing nothing

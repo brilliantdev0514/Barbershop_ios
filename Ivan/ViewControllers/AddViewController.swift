@@ -54,7 +54,7 @@ class AddViewController: UIViewController {
             let phone = addphone.text
             let timeInterval = NSDate().timeIntervalSince1970
             let uuid = UUID().uuidString;
-            self.ref.child("user").child(uuid).setValue(["userName":name, "orderNumber": timeInterval, "requestTime": timeLabel.text, "phoneNumber":phone, "uid": uuid, "state": "REQUESTED", "ready": "false"])
+            self.ref.child("Clients").child(uuid).setValue(["userName":name, "orderNumber": timeInterval, "requestTime": timeLabel.text, "phoneNumber":phone, "uid": uuid, "state": "REQUESTED", "ready": "false"])
             //custom user add success and go to BarberViewController
             self.navigationController?.popViewController(animated: true)
                    

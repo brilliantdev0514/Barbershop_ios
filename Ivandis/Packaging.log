@@ -1,0 +1,570 @@
+2020-02-05 07:44:21 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff79acbf560; archive(resolved)='<IDEArchive: 0x7ff79d979460>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff79acbf560; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff79acd3960; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff79e1dbc60; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff7aa7e8820; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff78015b170; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff79dfe0660; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff79df3c820; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff79ce2cbe0; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff7870bafa0; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff7a34c7370; teamID='JPPJNWS5G6', teamName='Ivan Morel', teamType='Individual', username='sr.morel@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff79e6eabb0; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='(null)'>
+	<IDEDistributionContext: 0x7ff78022b390; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ff7b6a13b10>', team='(null)'>
+	<IDEDistributionContext: 0x7ff79d9d7300; archive = '<IDEArchive: 0x7ff79d979460>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff79acbf560>
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionCopyItemStep
+2020-02-05 07:44:21 +0000  Running /usr/bin/ditto '-V' '/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app'
+2020-02-05 07:44:21 +0000  >>> Copying /Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app 
+2020-02-05 07:44:21 +0000  copying file ./Untitled-7.png ... 
+2020-02-05 07:44:21 +0000  21498 bytes for ./Untitled-7.png
+2020-02-05 07:44:21 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  18559 bytes for ./_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Untitled-6.png ... 
+2020-02-05 07:44:21 +0000  11203 bytes for ./Untitled-6.png
+2020-02-05 07:44:21 +0000  copying file ./Untitled-4.png ... 
+2020-02-05 07:44:21 +0000  7452 bytes for ./Untitled-4.png
+2020-02-05 07:44:21 +0000  copying file ./Untitled-5.png ... 
+2020-02-05 07:44:21 +0000  6589 bytes for ./Untitled-5.png
+2020-02-05 07:44:21 +0000  copying file ./Untitled-2.png ... 
+2020-02-05 07:44:21 +0000  4338 bytes for ./Untitled-2.png
+2020-02-05 07:44:21 +0000  copying file ./Untitled-3.png ... 
+2020-02-05 07:44:21 +0000  4030 bytes for ./Untitled-3.png
+2020-02-05 07:44:21 +0000  copying file ./AppIcon60x60@2x.png ... 
+2020-02-05 07:44:21 +0000  12862 bytes for ./AppIcon60x60@2x.png
+2020-02-05 07:44:21 +0000  copying file ./Untitlsed-1.png ... 
+2020-02-05 07:44:21 +0000  2585 bytes for ./Untitlsed-1.png
+2020-02-05 07:44:21 +0000  copying file ./GoogleService-Info.plist ... 
+2020-02-05 07:44:21 +0000  817 bytes for ./GoogleService-Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/lkP-3t-bgx-view-iXS-em-Lh0.nib ... 
+2020-02-05 07:44:21 +0000  6849 bytes for ./Base.lproj/Main.storyboardc/lkP-3t-bgx-view-iXS-em-Lh0.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/AddViewController.nib ... 
+2020-02-05 07:44:21 +0000  1041 bytes for ./Base.lproj/Main.storyboardc/AddViewController.nib
+copying file ./Base.lproj/Main.storyboardc/ClientViewController.nib ... 
+2020-02-05 07:44:21 +0000  1047 bytes for ./Base.lproj/Main.storyboardc/ClientViewController.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/ViewController.nib ... 
+2020-02-05 07:44:21 +0000  1113 bytes for ./Base.lproj/Main.storyboardc/ViewController.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/HZ8-BC-Idk-view-yqx-7v-d6h.nib ... 
+2020-02-05 07:44:21 +0000  14086 bytes for ./Base.lproj/Main.storyboardc/HZ8-BC-Idk-view-yqx-7v-d6h.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-02-05 07:44:21 +0000  6491 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/W96-2k-NKl-view-sCT-jC-7wz.nib ... 
+2020-02-05 07:44:21 +0000  5790 bytes for ./Base.lproj/Main.storyboardc/W96-2k-NKl-view-sCT-jC-7wz.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-vys-5z-O9K.nib ... 
+2020-02-05 07:44:21 +0000  1834 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-vys-5z-O9K.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/BarberViewController.nib ... 
+2020-02-05 07:44:21 +0000  1125 bytes for ./Base.lproj/Main.storyboardc/BarberViewController.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-02-05 07:44:21 +0000  523 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/cHO-KV-9rN-view-zDM-7T-K2f.nib ... 
+2020-02-05 07:44:21 +0000  15395 bytes for ./Base.lproj/Main.storyboardc/cHO-KV-9rN-view-zDM-7T-K2f.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/Main.storyboardc/VerifyViewController.nib ... 
+1047 bytes for ./Base.lproj/Main.storyboardc/VerifyViewController.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-02-05 07:44:21 +0000  2013 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-02-05 07:44:21 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-02-05 07:44:21 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-02-05 07:44:21 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Assets.car ... 
+2020-02-05 07:44:21 +0000  534728 bytes for ./Assets.car
+2020-02-05 07:44:21 +0000  copying file ./logo.jpg ... 
+2020-02-05 07:44:21 +0000  103491 bytes for ./logo.jpg
+2020-02-05 07:44:21 +0000  copying file ./EZCutz by Ivan ... 
+2020-02-05 07:44:21 +0000  17627168 bytes for ./EZCutz by Ivan
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/ViewState.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/ViewState.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/ViewState.framework/ViewState ... 
+2020-02-05 07:44:21 +0000  487952 bytes for ./Frameworks/ViewState.framework/ViewState
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/ViewState.framework/Info.plist ... 
+740 bytes for ./Frameworks/ViewState.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2020-02-05 07:44:21 +0000  1298432 bytes for ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  758 bytes for ./Frameworks/GTMSessionFetcher.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/FBLPromises.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/FBLPromises.framework/FBLPromises ... 
+2020-02-05 07:44:21 +0000  700096 bytes for ./Frameworks/FBLPromises.framework/FBLPromises
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/FBLPromises.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  744 bytes for ./Frameworks/FBLPromises.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/KeyboardAvoidingView.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/KeyboardAvoidingView.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView ... 
+2020-02-05 07:44:21 +0000  466464 bytes for ./Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView
+copying file ./Frameworks/KeyboardAvoidingView.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  764 bytes for ./Frameworks/KeyboardAvoidingView.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+2020-02-05 07:44:21 +0000  977584 bytes for ./Frameworks/GoogleUtilities.framework/GoogleUtilities
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/GoogleUtilities.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  754 bytes for ./Frameworks/GoogleUtilities.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/nanopb.framework/nanopb ... 
+2020-02-05 07:44:21 +0000  276976 bytes for ./Frameworks/nanopb.framework/nanopb
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/nanopb.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  737 bytes for ./Frameworks/nanopb.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/leveldb.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/leveldb.framework/leveldb ... 
+2020-02-05 07:44:21 +0000  2472848 bytes for ./Frameworks/leveldb.framework/leveldb
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/leveldb.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  737 bytes for ./Frameworks/leveldb.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SinchVerification.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  1798 bytes for ./Frameworks/SinchVerification.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SinchVerification.framework/SinchVerification ... 
+2020-02-05 07:44:21 +0000  5000016 bytes for ./Frameworks/SinchVerification.framework/SinchVerification
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SinchVerification.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  758 bytes for ./Frameworks/SinchVerification.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:21 +0000  3488 bytes for ./Frameworks/SwiftToast.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/SwiftToastView.nib/objects-13.0+.nib ... 
+2020-02-05 07:44:21 +0000  3913 bytes for ./Frameworks/SwiftToast.framework/SwiftToastView.nib/objects-13.0+.nib
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/SwiftToastView.nib/runtime.nib ... 
+2020-02-05 07:44:21 +0000  3913 bytes for ./Frameworks/SwiftToast.framework/SwiftToastView.nib/runtime.nib
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/objects-13.0+.nib ... 
+2020-02-05 07:44:21 +0000  3908 bytes for ./Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/objects-13.0+.nib
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/runtime.nib ... 
+2020-02-05 07:44:21 +0000  3910 bytes for ./Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/runtime.nib
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/SwiftToast.bundle/Info.plist ... 
+2020-02-05 07:44:21 +0000  717 bytes for ./Frameworks/SwiftToast.framework/SwiftToast.bundle/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/SwiftToast ... 
+2020-02-05 07:44:21 +0000  433376 bytes for ./Frameworks/SwiftToast.framework/SwiftToast
+2020-02-05 07:44:21 +0000  copying file ./Frameworks/SwiftToast.framework/Info.plist ... 
+2020-02-05 07:44:21 +0000  742 bytes for ./Frameworks/SwiftToast.framework/Info.plist
+2020-02-05 07:44:21 +0000  copying file ./embedded.mobileprovision ... 
+2020-02-05 07:44:21 +0000  7295 bytes for ./embedded.mobileprovision
+2020-02-05 07:44:21 +0000  copying file ./Untitled-8.png ... 
+2020-02-05 07:44:21 +0000  445632 bytes for ./Untitled-8.png
+2020-02-05 07:44:21 +0000  copying file ./Info.plist ... 
+2020-02-05 07:44:21 +0000  1776 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2020-02-05 07:44:21 +0000  8 bytes for ./PkgInfo
+2020-02-05 07:44:21 +0000  /usr/bin/ditto exited with 0
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff7a73add50; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7ff79ced1020:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa157190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7b8a4f730; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7ff7a7f4b330:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff79da2d060; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7ff78744e860:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9eb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7b8a4f730; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7ff79ce5ae70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff7ad41d700; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7ff7894b6460:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79da08970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7b8a4f730; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7ff78744ec60:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff77fe5bfd0; bundleID='org.cocoapods.KeyboardAvoidingView', path='<DVTFilePath:0x7ff789488740:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79d455070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7b8a4f730; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.KeyboardAvoidingView', executablePath='<DVTFilePath:0x7ff78945e2d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff785747d40; bundleID='org.cocoapods.SinchVerification', path='<DVTFilePath:0x7ff78744da80:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73d1a10; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff791d422f0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SinchVerification', executablePath='<DVTFilePath:0x7ff787421420:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/SinchVerification'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff79d4f8210; bundleID='org.cocoapods.SwiftToast', path='<DVTFilePath:0x7ff78743a710:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa46b5d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7807d3660; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SwiftToast', executablePath='<DVTFilePath:0x7ff79dfe0e50:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff7804c1db0; bundleID='org.cocoapods.ViewState', path='<DVTFilePath:0x7ff7874413e0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9510; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7807d3660; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.ViewState', executablePath='<DVTFilePath:0x7ff787451570:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework/ViewState'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff7804b8260; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7ff7aa9228d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa1ab670; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff791d422f0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7ff787461a70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff78049fb10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7ff78744fca0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73db970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff791d422f0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7ff789426040:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionItemRemovalStep
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionSymbolsStep
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionAppThinningStep
+2020-02-05 07:44:21 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionArchThinningStep
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/FBLPromises' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "FBLPromises" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "GTMSessionFetcher" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/GoogleUtilities' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "GoogleUtilities" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "KeyboardAvoidingView" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/SinchVerification' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "SinchVerification" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "SwiftToast" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework/ViewState' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "ViewState" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework/leveldb' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "leveldb" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework/nanopb' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "nanopb" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/EZCutz by Ivan' '-verify_arch' 'arm64e'
+2020-02-05 07:44:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-05 07:44:21 +0000  Skipping architecture thinning for item "EZCutz by Ivan" because arch "arm64e" wasn't found
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionODRStep
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff7a73add50; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7ff79ced1020:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa157190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7a8f1e1c0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7ff7a7f4b330:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff79da2d060; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7ff78744e860:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9eb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7aa224f40; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7ff79ce5ae70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff7ad41d700; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7ff7894b6460:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79da08970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7a8f1e1c0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7ff78744ec60:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff77fe5bfd0; bundleID='org.cocoapods.KeyboardAvoidingView', path='<DVTFilePath:0x7ff789488740:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79d455070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7aa224f40; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.KeyboardAvoidingView', executablePath='<DVTFilePath:0x7ff78945e2d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff785747d40; bundleID='org.cocoapods.SinchVerification', path='<DVTFilePath:0x7ff78744da80:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73d1a10; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7a8f1e1c0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SinchVerification', executablePath='<DVTFilePath:0x7ff787421420:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/SinchVerification'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff79d4f8210; bundleID='org.cocoapods.SwiftToast', path='<DVTFilePath:0x7ff78743a710:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa46b5d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7a8f1e1c0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SwiftToast', executablePath='<DVTFilePath:0x7ff79dfe0e50:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff7804c1db0; bundleID='org.cocoapods.ViewState', path='<DVTFilePath:0x7ff7874413e0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9510; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7aa224f40; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.ViewState', executablePath='<DVTFilePath:0x7ff787451570:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework/ViewState'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff7804b8260; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7ff7aa9228d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa1ab670; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7a8f1e1c0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7ff787461a70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff78049fb10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7ff78744fca0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73db970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff79acd73b0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7ff789426040:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>
+2020-02-05 07:44:21 +0000  Running /usr/bin/xattr '-crs' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app'
+2020-02-05 07:44:21 +0000  /usr/bin/xattr exited with 0
+2020-02-05 07:44:21 +0000  Processing step: IDEDistributionCodesignStep
+2020-02-05 07:44:21 +0000  Entitlements for <IDEDistributionItem: 0x7ff7a73add50; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7ff79ced1020:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa157190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7a8f1e1c0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7ff7a7f4b330:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff7a73add50; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7ff79ced1020:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa157190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff782f186d0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7ff7a7f4b330:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~U35Fqo
+2020-02-05 07:44:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~U35Fqo' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework'
+2020-02-05 07:44:23 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.FBLPromises]
+2020-02-05 07:44:23 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:23 +0000  Entitlements for <IDEDistributionItem: 0x7ff79da2d060; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7ff78744e860:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9eb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7b8a4f730; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7ff79ce5ae70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff79da2d060; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7ff78744e860:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9eb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7807ec8e0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7ff79ce5ae70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~uGiKLX
+2020-02-05 07:44:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~uGiKLX' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework'
+2020-02-05 07:44:25 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GTMSessionFetcher]
+2020-02-05 07:44:25 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:25 +0000  Entitlements for <IDEDistributionItem: 0x7ff7ad41d700; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7ff7894b6460:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79da08970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7aa224f40; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7ff78744ec60:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff7ad41d700; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7ff7894b6460:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79da08970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff782f186d0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7ff78744ec60:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~DbCBbu
+2020-02-05 07:44:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~DbCBbu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework'
+2020-02-05 07:44:26 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleUtilities]
+2020-02-05 07:44:26 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:26 +0000  Entitlements for <IDEDistributionItem: 0x7ff77fe5bfd0; bundleID='org.cocoapods.KeyboardAvoidingView', path='<DVTFilePath:0x7ff789488740:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79d455070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff782f04060; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.KeyboardAvoidingView', executablePath='<DVTFilePath:0x7ff78945e2d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff77fe5bfd0; bundleID='org.cocoapods.KeyboardAvoidingView', path='<DVTFilePath:0x7ff789488740:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff79d455070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff782f186d0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.KeyboardAvoidingView', executablePath='<DVTFilePath:0x7ff78945e2d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~kqwVtG
+2020-02-05 07:44:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~kqwVtG' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework'
+2020-02-05 07:44:28 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.KeyboardAvoidingView]
+2020-02-05 07:44:28 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:28 +0000  Entitlements for <IDEDistributionItem: 0x7ff785747d40; bundleID='org.cocoapods.SinchVerification', path='<DVTFilePath:0x7ff78744da80:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73d1a10; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff797a11df0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SinchVerification', executablePath='<DVTFilePath:0x7ff787421420:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/SinchVerification'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff785747d40; bundleID='org.cocoapods.SinchVerification', path='<DVTFilePath:0x7ff78744da80:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73d1a10; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff79acd1890; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SinchVerification', executablePath='<DVTFilePath:0x7ff787421420:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/SinchVerification'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~1PDL1p
+2020-02-05 07:44:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~1PDL1p' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework'
+2020-02-05 07:44:29 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SinchVerification]
+2020-02-05 07:44:29 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:29 +0000  Entitlements for <IDEDistributionItem: 0x7ff79d4f8210; bundleID='org.cocoapods.SwiftToast', path='<DVTFilePath:0x7ff78743a710:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa46b5d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7801ce260; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SwiftToast', executablePath='<DVTFilePath:0x7ff79dfe0e50:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff79d4f8210; bundleID='org.cocoapods.SwiftToast', path='<DVTFilePath:0x7ff78743a710:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa46b5d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff797a11df0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.SwiftToast', executablePath='<DVTFilePath:0x7ff79dfe0e50:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~PM1Rvv
+2020-02-05 07:44:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~PM1Rvv' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework'
+2020-02-05 07:44:31 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftToast]
+2020-02-05 07:44:31 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:31 +0000  Entitlements for <IDEDistributionItem: 0x7ff7804c1db0; bundleID='org.cocoapods.ViewState', path='<DVTFilePath:0x7ff7874413e0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9510; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7801ce260; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.ViewState', executablePath='<DVTFilePath:0x7ff787451570:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework/ViewState'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff7804c1db0; bundleID='org.cocoapods.ViewState', path='<DVTFilePath:0x7ff7874413e0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7871d9510; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff78016ab10; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.ViewState', executablePath='<DVTFilePath:0x7ff787451570:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/ViewState.framework/ViewState'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~wYmVeP
+2020-02-05 07:44:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~wYmVeP' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework'
+2020-02-05 07:44:33 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.ViewState]
+2020-02-05 07:44:33 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:33 +0000  Entitlements for <IDEDistributionItem: 0x7ff7804b8260; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7ff7aa9228d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa1ab670; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff797a23910; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7ff787461a70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff7804b8260; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7ff7aa9228d0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7aa1ab670; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7801ce260; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7ff787461a70:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~RtYH8V
+2020-02-05 07:44:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~RtYH8V' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework'
+2020-02-05 07:44:34 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.leveldb]
+2020-02-05 07:44:34 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:34 +0000  Entitlements for <IDEDistributionItem: 0x7ff78049fb10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7ff78744fca0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73db970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff77fc68940; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7ff789426040:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>: {
+}
+2020-02-05 07:44:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff78049fb10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7ff78744fca0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff7a73db970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff78010d730; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='(null)', teamID='JPPJNWS5G6', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7ff789426040:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~ZrrgOv
+2020-02-05 07:44:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~ZrrgOv' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework'
+2020-02-05 07:44:36 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.nanopb]
+2020-02-05 07:44:36 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:36 +0000  Entitlements for <IDEDistributionItem: 0x7ff787174cc0; bundleID='com.barber.ivanios', path='<DVTFilePath:0x7ff780485ff0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff780219cf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7b71b24c0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='{
+    "application-identifier" = "JPPJNWS5G6.com.barber.ivanios";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = JPPJNWS5G6;
+    "get-task-allow" = 0;
+}', teamID='JPPJNWS5G6', identifier='com.barber.ivanios', executablePath='<DVTFilePath:0x7ff78743c0a0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/EZCutz by Ivan'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "JPPJNWS5G6.com.barber.ivanios";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = JPPJNWS5G6;
+    "get-task-allow" = 0;
+}
+2020-02-05 07:44:36 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff787174cc0; bundleID='com.barber.ivanios', path='<DVTFilePath:0x7ff780485ff0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff780219cf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff7a89b9ab0; name='Apple Distribution: Ivan Morel (JPPJNWS5G6)', hash='DD05245EAFFA6A6725931EC72D26A4AF7DF2128F', serialNumber='73F832CE81676179', certificateKinds='(
+    "1.2.840.113635.100.6.1.4",
+    "1.2.840.113635.100.6.1.7"
+), issueDate='2020-02-05 06:52:51 +0000''>', entitlements='{
+    "application-identifier" = "JPPJNWS5G6.com.barber.ivanios";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = JPPJNWS5G6;
+    "get-task-allow" = 0;
+}', teamID='JPPJNWS5G6', identifier='com.barber.ivanios', executablePath='<DVTFilePath:0x7ff78743c0a0:'/Users/victory/Library/Developer/Xcode/Archives/2020-02-05/Ivan 05.02.2020, 10.25.xcarchive/Products/Applications/EZCutz by Ivan.app/EZCutz by Ivan'>', hardenedRuntime='0'>'> to: /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~0wX4Nz
+2020-02-05 07:44:36 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DD05245EAFFA6A6725931EC72D26A4AF7DF2128F' '--entitlements' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/entitlements~~~0wX4Nz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app'
+2020-02-05 07:44:39 +0000  /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root/Payload/EZCutz by Ivan.app: signed app bundle with Mach-O thin (arm64) [com.barber.ivanios]
+2020-02-05 07:44:39 +0000  /usr/bin/codesign exited with 0
+2020-02-05 07:44:39 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-05 07:44:39 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-02-05 07:44:39 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root' '/var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Packages/Ivan.ipa'
+2020-02-05 07:44:39 +0000  >>> Copying /var/folders/ln/k2klr18x0qq88_v32bbbdmb40000gn/T/XcodeDistPipeline.~~~xURMDJ/Root 
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Untitled-7.png ... 
+2020-02-05 07:44:39 +0000  21498 bytes for ./Payload/EZCutz by Ivan.app/Untitled-7.png
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:39 +0000  18559 bytes for ./Payload/EZCutz by Ivan.app/_CodeSignature/CodeResources
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Untitled-6.png ... 
+2020-02-05 07:44:39 +0000  11203 bytes for ./Payload/EZCutz by Ivan.app/Untitled-6.png
+copying file ./Payload/EZCutz by Ivan.app/Untitled-4.png ... 
+2020-02-05 07:44:39 +0000  7452 bytes for ./Payload/EZCutz by Ivan.app/Untitled-4.png
+copying file ./Payload/EZCutz by Ivan.app/Untitled-5.png ... 
+2020-02-05 07:44:39 +0000  6589 bytes for ./Payload/EZCutz by Ivan.app/Untitled-5.png
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Untitled-2.png ... 
+4338 bytes for ./Payload/EZCutz by Ivan.app/Untitled-2.png
+copying file ./Payload/EZCutz by Ivan.app/Untitled-3.png ... 
+2020-02-05 07:44:39 +0000  4030 bytes for ./Payload/EZCutz by Ivan.app/Untitled-3.png
+copying file ./Payload/EZCutz by Ivan.app/AppIcon60x60@2x.png ... 
+2020-02-05 07:44:39 +0000  12862 bytes for ./Payload/EZCutz by Ivan.app/AppIcon60x60@2x.png
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Untitlsed-1.png ... 
+2020-02-05 07:44:39 +0000  2585 bytes for ./Payload/EZCutz by Ivan.app/Untitlsed-1.png
+copying file ./Payload/EZCutz by Ivan.app/GoogleService-Info.plist ... 
+817 bytes for ./Payload/EZCutz by Ivan.app/GoogleService-Info.plist
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/lkP-3t-bgx-view-iXS-em-Lh0.nib ... 
+2020-02-05 07:44:39 +0000  6849 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/lkP-3t-bgx-view-iXS-em-Lh0.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/AddViewController.nib ... 
+1041 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/AddViewController.nib
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/ClientViewController.nib ... 
+2020-02-05 07:44:39 +0000  1047 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/ClientViewController.nib
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/ViewController.nib ... 
+2020-02-05 07:44:39 +0000  1113 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/ViewController.nib
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/HZ8-BC-Idk-view-yqx-7v-d6h.nib ... 
+2020-02-05 07:44:39 +0000  14086 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/HZ8-BC-Idk-view-yqx-7v-d6h.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-02-05 07:44:39 +0000  6491 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/W96-2k-NKl-view-sCT-jC-7wz.nib ... 
+2020-02-05 07:44:39 +0000  5790 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/W96-2k-NKl-view-sCT-jC-7wz.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/UINavigationController-vys-5z-O9K.nib ... 
+1834 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/UINavigationController-vys-5z-O9K.nib
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/BarberViewController.nib ... 
+2020-02-05 07:44:39 +0000  1125 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/BarberViewController.nib
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2020-02-05 07:44:39 +0000  523 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/cHO-KV-9rN-view-zDM-7T-K2f.nib ... 
+2020-02-05 07:44:39 +0000  15395 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/cHO-KV-9rN-view-zDM-7T-K2f.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/VerifyViewController.nib ... 
+1047 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/Main.storyboardc/VerifyViewController.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-02-05 07:44:39 +0000  2013 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/EZCutz by Ivan.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+896 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/EZCutz by Ivan.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Assets.car ... 
+2020-02-05 07:44:39 +0000  534728 bytes for ./Payload/EZCutz by Ivan.app/Assets.car
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/logo.jpg ... 
+2020-02-05 07:44:39 +0000  103491 bytes for ./Payload/EZCutz by Ivan.app/logo.jpg
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/EZCutz by Ivan ... 
+2020-02-05 07:44:39 +0000  2601248 bytes for ./Payload/EZCutz by Ivan.app/EZCutz by Ivan
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework/ViewState ... 
+189600 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework/ViewState
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework/Info.plist ... 
+740 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/ViewState.framework/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2020-02-05 07:44:39 +0000  435936 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+2020-02-05 07:44:39 +0000  758 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/GTMSessionFetcher.framework/Info.plist
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:39 +0000  1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/FBLPromises ... 
+2020-02-05 07:44:39 +0000  235808 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/FBLPromises
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/Info.plist ... 
+2020-02-05 07:44:39 +0000  744 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/FBLPromises.framework/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView ... 
+2020-02-05 07:44:39 +0000  184704 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/KeyboardAvoidingView
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/Info.plist ... 
+2020-02-05 07:44:39 +0000  764 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/KeyboardAvoidingView.framework/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+2020-02-05 07:44:39 +0000  297616 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/Info.plist ... 
+754 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/GoogleUtilities.framework/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:39 +0000  1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework/nanopb ... 
+2020-02-05 07:44:39 +0000  127952 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework/nanopb
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework/Info.plist ... 
+737 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/nanopb.framework/Info.plist
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:39 +0000  1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework/leveldb ... 
+2020-02-05 07:44:39 +0000  581648 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework/leveldb
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework/Info.plist ... 
+737 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/leveldb.framework/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/SinchVerification ... 
+2020-02-05 07:44:39 +0000  1267104 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/SinchVerification
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/Info.plist ... 
+758 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SinchVerification.framework/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/_CodeSignature/CodeResources ... 
+2020-02-05 07:44:39 +0000  3488 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/_CodeSignature/CodeResources
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToastView.nib/objects-13.0+.nib ... 
+2020-02-05 07:44:39 +0000  3913 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToastView.nib/objects-13.0+.nib
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToastView.nib/runtime.nib ... 
+2020-02-05 07:44:39 +0000  3913 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToastView.nib/runtime.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/objects-13.0+.nib ... 
+2020-02-05 07:44:39 +0000  3908 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/objects-13.0+.nib
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/runtime.nib ... 
+2020-02-05 07:44:39 +0000  3910 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast.bundle/SwiftToastView.nib/runtime.nib
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast.bundle/Info.plist ... 
+2020-02-05 07:44:39 +0000  717 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast.bundle/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast ... 
+2020-02-05 07:44:39 +0000  201392 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/SwiftToast
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/Info.plist ... 
+742 bytes for ./Payload/EZCutz by Ivan.app/Frameworks/SwiftToast.framework/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/embedded.mobileprovision ... 
+2020-02-05 07:44:39 +0000  7295 bytes for ./Payload/EZCutz by Ivan.app/embedded.mobileprovision
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Untitled-8.png ... 
+2020-02-05 07:44:39 +0000  445632 bytes for ./Payload/EZCutz by Ivan.app/Untitled-8.png
+2020-02-05 07:44:39 +0000  copying file ./Payload/EZCutz by Ivan.app/Info.plist ... 
+1776 bytes for ./Payload/EZCutz by Ivan.app/Info.plist
+copying file ./Payload/EZCutz by Ivan.app/PkgInfo ... 
+8 bytes for ./Payload/EZCutz by Ivan.app/PkgInfo
+2020-02-05 07:44:39 +0000  /usr/bin/ditto exited with 0
+2020-02-05 07:44:39 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-02-05 07:44:39 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-02-05 07:44:39 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-02-05 07:44:48 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-02-05 07:44:48 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

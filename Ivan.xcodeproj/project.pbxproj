@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4D88D5A010A4DBA2CE4AB102 /* Pods_Ivan_IvanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C1350D138266BB358F6955 /* Pods_Ivan_IvanUITests.framework */; };
-		514D098B23D92E5900F2ED73 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514D098A23D92E5900F2ED73 /* UserNotifications.framework */; };
-		514D098D23D92E5900F2ED73 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514D098C23D92E5900F2ED73 /* UserNotificationsUI.framework */; };
-		514D099023D92E5900F2ED73 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D098F23D92E5900F2ED73 /* NotificationViewController.swift */; };
-		514D099323D92E5900F2ED73 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514D099123D92E5900F2ED73 /* MainInterface.storyboard */; };
-		514D099723D92E5900F2ED73 /* Notification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 514D098923D92E5900F2ED73 /* Notification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		510B966323EB280600745A1F /* qntitled-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B965B23EB280200745A1F /* qntitled-7.png */; };
+		510B966423EB280600745A1F /* qntitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B965C23EB280300745A1F /* qntitled-2.png */; };
+		510B966523EB280600745A1F /* qntitled-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B965D23EB280300745A1F /* qntitled-5.png */; };
+		510B966623EB280600745A1F /* qntitled-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B965E23EB280400745A1F /* qntitled-8.png */; };
+		510B966723EB280600745A1F /* qntitled-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B965F23EB280400745A1F /* qntitled-4.png */; };
+		510B966823EB280600745A1F /* qntitled-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B966023EB280500745A1F /* qntitled-6.png */; };
+		510B966923EB280600745A1F /* qntitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B966123EB280600745A1F /* qntitled-1.png */; };
+		510B966A23EB280600745A1F /* qntitled-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 510B966223EB280600745A1F /* qntitled-3.png */; };
 		515B4F5123D7946B001476DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B4F5023D7946B001476DF /* Extensions.swift */; };
 		515B4F5523D7BEED001476DF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B4F5423D7BEED001476DF /* Item.swift */; };
 		515B4F5723D7D417001476DF /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B4F5623D7D417001476DF /* GlobalVariable.swift */; };
@@ -40,18 +43,13 @@
 		51A7C35723D6300200676B96 /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C35623D6300200676B96 /* ClientViewController.swift */; };
 		51A7C35923D6300B00676B96 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7C35823D6300B00676B96 /* AddViewController.swift */; };
 		51A7C35B23D63B1A00676B96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51A7C35A23D63B1A00676B96 /* GoogleService-Info.plist */; };
+		51BA8D1523E7296100BB5A70 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514D098A23D92E5900F2ED73 /* UserNotifications.framework */; };
+		51BA8D1623E7296600BB5A70 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514D098C23D92E5900F2ED73 /* UserNotificationsUI.framework */; };
 		BFBAF360902BC5EC460562CF /* Pods_Ivan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4575DE1301560522E1F42C /* Pods_Ivan.framework */; };
 		FF88BE8D7BF2B959AB404037 /* Pods_IvanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173CE019EE2E685056C2D833 /* Pods_IvanTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		514D099523D92E5900F2ED73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51A7C31723D62DF300676B96 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 514D098823D92E5900F2ED73;
-			remoteInfo = Notification;
-		};
 		51A7C33623D62DF400676B96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51A7C31723D62DF300676B96 /* Project object */;
@@ -75,7 +73,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				514D099723D92E5900F2ED73 /* Notification.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +81,14 @@
 
 /* Begin PBXFileReference section */
 		173CE019EE2E685056C2D833 /* Pods_IvanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		514D098923D92E5900F2ED73 /* Notification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		510B965B23EB280200745A1F /* qntitled-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-7.png"; sourceTree = "<group>"; };
+		510B965C23EB280300745A1F /* qntitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-2.png"; sourceTree = "<group>"; };
+		510B965D23EB280300745A1F /* qntitled-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-5.png"; sourceTree = "<group>"; };
+		510B965E23EB280400745A1F /* qntitled-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-8.png"; sourceTree = "<group>"; };
+		510B965F23EB280400745A1F /* qntitled-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-4.png"; sourceTree = "<group>"; };
+		510B966023EB280500745A1F /* qntitled-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-6.png"; sourceTree = "<group>"; };
+		510B966123EB280600745A1F /* qntitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-1.png"; sourceTree = "<group>"; };
+		510B966223EB280600745A1F /* qntitled-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qntitled-3.png"; sourceTree = "<group>"; };
 		514D098A23D92E5900F2ED73 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		514D098C23D92E5900F2ED73 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		514D098F23D92E5900F2ED73 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
@@ -135,19 +139,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		514D098623D92E5900F2ED73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				514D098D23D92E5900F2ED73 /* UserNotificationsUI.framework in Frameworks */,
-				514D098B23D92E5900F2ED73 /* UserNotifications.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		51A7C31C23D62DF300676B96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BA8D1623E7296600BB5A70 /* UserNotificationsUI.framework in Frameworks */,
+				51BA8D1523E7296100BB5A70 /* UserNotifications.framework in Frameworks */,
 				BFBAF360902BC5EC460562CF /* Pods_Ivan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +196,14 @@
 			children = (
 				51A7C32B23D62DF400676B96 /* Assets.xcassets */,
 				516D1EEB23DA9E7700204468 /* Untitled-2.png */,
+				510B966123EB280600745A1F /* qntitled-1.png */,
+				510B965C23EB280300745A1F /* qntitled-2.png */,
+				510B966223EB280600745A1F /* qntitled-3.png */,
+				510B965F23EB280400745A1F /* qntitled-4.png */,
+				510B965D23EB280300745A1F /* qntitled-5.png */,
+				510B966023EB280500745A1F /* qntitled-6.png */,
+				510B965B23EB280200745A1F /* qntitled-7.png */,
+				510B965E23EB280400745A1F /* qntitled-8.png */,
 				516D1EEF23DA9E7700204468 /* Untitled-3.png */,
 				516D1EF023DA9E7800204468 /* Untitled-4.png */,
 				516D1EEC23DA9E7700204468 /* Untitled-5.png */,
@@ -249,6 +254,7 @@
 				D9CC6C312DADFCFFA708AF6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		51A7C32023D62DF300676B96 /* Products */ = {
 			isa = PBXGroup;
@@ -256,7 +262,6 @@
 				51A7C31F23D62DF300676B96 /* EZCutz by Ivan.app */,
 				51A7C33523D62DF400676B96 /* IvanTests.xctest */,
 				51A7C34023D62DF400676B96 /* IvanUITests.xctest */,
-				514D098923D92E5900F2ED73 /* Notification.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,23 +314,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		514D098823D92E5900F2ED73 /* Notification */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 514D099B23D92E5900F2ED73 /* Build configuration list for PBXNativeTarget "Notification" */;
-			buildPhases = (
-				514D098523D92E5900F2ED73 /* Sources */,
-				514D098623D92E5900F2ED73 /* Frameworks */,
-				514D098723D92E5900F2ED73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Notification;
-			productName = Notification;
-			productReference = 514D098923D92E5900F2ED73 /* Notification.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		51A7C31E23D62DF300676B96 /* Ivan */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51A7C34923D62DF400676B96 /* Build configuration list for PBXNativeTarget "Ivan" */;
@@ -340,7 +328,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				514D099623D92E5900F2ED73 /* PBXTargetDependency */,
 			);
 			name = Ivan;
 			productName = Ivan;
@@ -396,9 +383,6 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Apple Inc.";
 				TargetAttributes = {
-					514D098823D92E5900F2ED73 = {
-						CreatedOnToolsVersion = 11.3;
-					};
 					51A7C31E23D62DF300676B96 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -428,32 +412,31 @@
 				51A7C31E23D62DF300676B96 /* Ivan */,
 				51A7C33423D62DF400676B96 /* IvanTests */,
 				51A7C33F23D62DF400676B96 /* IvanUITests */,
-				514D098823D92E5900F2ED73 /* Notification */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		514D098723D92E5900F2ED73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				514D099323D92E5900F2ED73 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		51A7C31D23D62DF300676B96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				516D1EF423DA9E7800204468 /* Untitled-5.png in Resources */,
 				516D1EF823DA9E7800204468 /* Untitled-4.png in Resources */,
+				510B966423EB280600745A1F /* qntitled-2.png in Resources */,
+				510B966723EB280600745A1F /* qntitled-4.png in Resources */,
+				510B966A23EB280600745A1F /* qntitled-3.png in Resources */,
+				510B966323EB280600745A1F /* qntitled-7.png in Resources */,
 				51A7C32F23D62DF400676B96 /* LaunchScreen.storyboard in Resources */,
 				516D1EFA23DA9E7800204468 /* Untitled-8.png in Resources */,
+				510B966823EB280600745A1F /* qntitled-6.png in Resources */,
 				516D1EEA23DA94E200204468 /* logo.jpg in Resources */,
 				51A7C32C23D62DF400676B96 /* Assets.xcassets in Resources */,
+				510B966523EB280600745A1F /* qntitled-5.png in Resources */,
 				516D1EF623DA9E7800204468 /* Untitled-6.png in Resources */,
+				510B966923EB280600745A1F /* qntitled-1.png in Resources */,
 				51A7C35B23D63B1A00676B96 /* GoogleService-Info.plist in Resources */,
+				510B966623EB280600745A1F /* qntitled-8.png in Resources */,
 				516D1EF723DA9E7800204468 /* Untitled-3.png in Resources */,
 				516D1EF923DA9E7800204468 /* Untitlsed-1.png in Resources */,
 				51A7C32A23D62DF300676B96 /* Main.storyboard in Resources */,
@@ -582,14 +565,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		514D098523D92E5900F2ED73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				514D099023D92E5900F2ED73 /* NotificationViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		51A7C31B23D62DF300676B96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,11 +603,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		514D099623D92E5900F2ED73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 514D098823D92E5900F2ED73 /* Notification */;
-			targetProxy = 514D099523D92E5900F2ED73 /* PBXContainerItemProxy */;
-		};
 		51A7C33723D62DF400676B96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 51A7C31E23D62DF300676B96 /* Ivan */;
@@ -673,42 +643,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		514D099923D92E5900F2ED73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Notification/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.barber.Ivan.Notification;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		514D099A23D92E5900F2ED73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Notification/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.barber.Ivan.Notification;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		51A7C34723D62DF400676B96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -830,14 +764,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Ivan/Ivan.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JPPJNWS5G6;
 				INFOPLIST_FILE = Ivan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.barber.Ivan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barber.ivanios;
 				PRODUCT_NAME = "EZCutz by Ivan";
+				PROVISIONING_PROFILE_SPECIFIER = diprovisioningprofile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -850,14 +787,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Ivan/Ivan.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JPPJNWS5G6;
 				INFOPLIST_FILE = Ivan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.barber.Ivan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barber.ivanios;
 				PRODUCT_NAME = "EZCutz by Ivan";
+				PROVISIONING_PROFILE_SPECIFIER = diprovisioningprofile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -950,15 +890,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		514D099B23D92E5900F2ED73 /* Build configuration list for PBXNativeTarget "Notification" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				514D099923D92E5900F2ED73 /* Debug */,
-				514D099A23D92E5900F2ED73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		51A7C31A23D62DF300676B96 /* Build configuration list for PBXProject "Ivan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

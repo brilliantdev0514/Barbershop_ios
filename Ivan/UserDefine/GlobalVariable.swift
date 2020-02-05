@@ -12,7 +12,7 @@ class ModelData: NSObject {
     var userName = ""
     var phoneNumber = ""
     var orderNo = 0
-    var ready = ""
+    var ready = false
     var state = ""
     var uid = ""
     var allow = ""

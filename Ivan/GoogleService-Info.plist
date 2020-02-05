@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>562762536560-b8gsghip6ipmb7rvjkobc7ts95ja3k2b.apps.googleusercontent.com</string>
+	<string>562762536560-vftdt0cuj2jqu1oj59395t6hj4m7mp38.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.562762536560-b8gsghip6ipmb7rvjkobc7ts95ja3k2b</string>
+	<string>com.googleusercontent.apps.562762536560-vftdt0cuj2jqu1oj59395t6hj4m7mp38</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>562762536560-rslrcm6tadlfo4dk5e6rv2524c18rv4p.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.barber.Ivan</string>
+	<string>com.barber.ivanios</string>
 	<key>PROJECT_ID</key>
 	<string>ivan-fashion</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:562762536560:ios:4057cd66ff52cf03d306b5</string>
+	<string>1:562762536560:ios:a75d0d76bcb9daf4d306b5</string>
 	<key>DATABASE_URL</key>
 	<string>https://ivan-fashion.firebaseio.com</string>
 </dict>

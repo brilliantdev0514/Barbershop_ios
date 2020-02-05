@@ -12,23 +12,70 @@ import FirebaseAuth
 import SwiftToast
 import UserNotifications
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     //MARK: variable declare!
     @IBOutlet weak var continueBtn: UIButton!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var phone: UITextField!
+    @IBOutlet weak var containerView: UIView!
+    var activeTF = UITextField()
+    var diff : CGFloat = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        name.delegate = self
+        phone.delegate = self
         continueBtn.layer.cornerRadius = 5
         name.layer.cornerRadius = 15
         phone.layer.cornerRadius = 15
         configureKeyboardDismissOnTap()
         showAlertDialog() // admin check key func
-        
+        self.activeTF.tag = 0
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
     }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+
+         self.activeTF = textField
+    }
+    
+    @objc func keyboardWillShow(notification: NSNotification) {
+        let dim = self.containerView.frame.origin.y
+        let heightView = self.containerView.frame.height
+        let bottomYOfView = dim + heightView
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            if keyboardSize.origin.y > 0, keyboardSize.origin.y < bottomYOfView {
+                diff = bottomYOfView - keyboardSize.origin.y
+                self.containerView.frame.origin.y -= diff
+            }
+        }
+    }
+
+    @objc func keyboardWillHide(notification: NSNotification) {
+        if self.name.isFocused {
+            self.name.becomeFirstResponder()
+            return
+        }
+        
+        if self.phone.isFocused {
+            self.phone.becomeFirstResponder()
+            return
+        }
+        if diff != 0 {
+            self.containerView.frame.origin.y += diff
+            diff = 0
+        }
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        NotificationCenter.default.removeObserver(self)
+    }
+    
     //MARK:-to getting verify code
     @IBAction func toVerify(_ sender: Any) {
         //MARK: non character check and length limit!

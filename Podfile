@@ -13,6 +13,9 @@ target 'Ivan' do
   pod 'FirebaseAuth'
   pod 'SinchVerification-Swift'
   pod 'SwiftToast'
+  pod 'IQKeyboardManagerSwift'
+  
+  
   target 'IvanTests' do
     inherit! :search_paths
     # Pods for testing

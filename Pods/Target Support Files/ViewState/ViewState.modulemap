@@ -1,0 +1,6 @@
+framework module ViewState {
+  umbrella header "ViewState-umbrella.h"
+
+  export *
+  module * { export * }
+}

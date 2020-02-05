@@ -67,7 +67,7 @@ class BarberViewController: UIViewController{
 
     @objc func currentTime() {
         let formatter = DateFormatter()
-        formatter.dateFormat = "hh:mm:ss"
+        formatter.dateFormat = "h:mm:ss a"
         timeLabel.text = formatter.string(from: Date())
     }
     //MARK: -read date from firebase database to tableview
@@ -88,10 +88,10 @@ class BarberViewController: UIViewController{
                     let user = item2["userName"] as! String
                     let request = item2["requestTime"] as! String
                     let state = item2["state"] as! String
-                    let order = item2["orderNumber"] as! Double
+                    let order = item2["orderNo"] as! Double
                     let phone = item2["phoneNumber"] as! String
                     let uid = item2["uid"] as! String
-                    let ready = item2["ready"] as! String
+                    let ready = item2["ready"] as! Bool
                     
                     let item3 = Item(username: user, request: request, states: state, order: order, phone: phone, uid: uid, ready: ready)
                     self.usersDic.append(item3)
@@ -189,7 +189,7 @@ class BarberViewController: UIViewController{
                 let nextuidstring = self.usersDic[indexpath.row+1].uid!
                 if self.usersDic[indexpath.row].state == "REQUESTED" {
                     self.ref.child("Clients").child(uidstring).updateChildValues(["state": "STARTED"])
-                    self.ref.child("Clients").child(nextuidstring).updateChildValues(["ready": "true"])
+                    self.ref.child("Clients").child(nextuidstring).updateChildValues(["ready": true])
                 }
                 if self.usersDic[indexpath.row].state == "STARTED" {
                     self.ref.child("Clients").child(uidstring).updateChildValues(["state": "COMPLETED"])

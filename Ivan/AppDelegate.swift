@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Ivan
 //
-//  Created by Olga Pirogova on 20.01.2020.
+//  Created by Olga Pirogova	 on 20.01.2020.
 //  Copyright © 2020 Apple Inc. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
 //        window = UIWindow()
-//        window?.makeKeyAndVisible()
+//        window?.makeKeyAndVisib	le()
 //        let rootControoler = ViewController()
 //        window?.rootViewController = rootControoler
         FirebaseApp.configure()

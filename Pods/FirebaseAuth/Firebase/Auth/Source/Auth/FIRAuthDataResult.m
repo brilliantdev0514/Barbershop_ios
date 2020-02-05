@@ -32,7 +32,7 @@ static NSString *const kAdditionalUserInfoCodingKey = @"additionalUserInfo";
 /** @var kUserCodingKey
     @brief The key used to encode the user property for NSSecureCoding.
  */
-static NSString *const kUserCodingKey = @"Clients";
+static NSString *const kUserCodingKey = @"user";
 
 /** @var kCredentialCodingKey
     @brief The key used to encode the credential for NSSecureCoding.

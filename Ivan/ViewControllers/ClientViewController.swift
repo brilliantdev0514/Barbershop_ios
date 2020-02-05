@@ -56,7 +56,7 @@ class ClientViewController: UIViewController {
 
     @objc func currentTime() {
         let formatter = DateFormatter()
-        formatter.dateFormat = "hh:mm:ss"
+        formatter.dateFormat = "h:mm:ss a"
         timeLabel.text = formatter.string(from: Date())
     }
     //MARK: -read date from firebase database to tableview
@@ -77,10 +77,10 @@ class ClientViewController: UIViewController {
                     let user = item2["userName"] as! String
                     let request = item2["requestTime"] as! String
                     let state = item2["state"] as! String
-                    let order = item2["orderNumber"] as! Double
+                    let order = item2["orderNo"] as! Double
                     let phone = item2["phoneNumber"] as! String
                     let uid = item2["uid"] as! String
-                    let ready = item2["ready"] as! String
+                    let ready = item2["ready"] as! Bool
                     
                     let item3 = Item(username: user, request: request, states: state, order: order, phone: phone, uid: uid, ready: ready)
                     self.usersDic.append(item3)
@@ -113,7 +113,7 @@ class ClientViewController: UIViewController {
                     let userID = Auth.auth().currentUser!.uid
                     let username = ModelData.shared.userName
                     let phone = ModelData.shared.phoneNumber
-                    self.ref.child("Clients").child(userID).setValue(["userName":username, "orderNumber": timestamp, "requestTime": self.timeLabel.text!, "phoneNumber":phone, "uid":userID, "state": "REQUESTED", "ready": "false"])
+                    self.ref.child("Clients").child(userID).setValue(["userName":username, "orderNo": timestamp, "requestTime": self.timeLabel.text!, "phoneNumber":phone, "uid":userID, "state": "REQUESTED", "ready": false])
                 }else {
                     //booking cancel
                     let alertController = UIAlertController(title: "Caution!", message: ("You can't booking now"), preferredStyle: .alert)
@@ -182,7 +182,7 @@ extension ClientViewController: UITableViewDelegate, UITableViewDataSource {
         if self.usersDic[indexPath.row].state == "COMPLETED" {
             cell.statusBtnLabel.setTitleColor(UIColor.systemBlue, for: .normal)
         }
-        if self.usersDic[indexPath.row].state == "REQUESTED" || self.usersDic[indexPath.row].ready == "true" {
+        if self.usersDic[indexPath.row].state == "REQUESTED" || self.usersDic[indexPath.row].ready {
             scheduleLocal()
         }
         

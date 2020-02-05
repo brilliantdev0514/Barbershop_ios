@@ -1,8 +1,10 @@
 ${PODS_ROOT}/Target Support Files/Pods-Ivan-IvanUITests/Pods-Ivan-IvanUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
 ${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework
+${BUILT_PRODUCTS_DIR}/KeyboardAvoidingView/KeyboardAvoidingView.framework
 ${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
 ${BUILT_PRODUCTS_DIR}/SinchVerification-Swift/SinchVerification.framework
 ${BUILT_PRODUCTS_DIR}/SwiftToast/SwiftToast.framework
+${BUILT_PRODUCTS_DIR}/ViewState/ViewState.framework
 ${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework
 ${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework

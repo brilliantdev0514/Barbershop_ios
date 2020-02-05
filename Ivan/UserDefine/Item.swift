@@ -17,9 +17,9 @@ class Item {
     var orderNumber: Double!
     var phoneNumber: String!
     var uid: String!
-    var ready: String!
+    var ready: Bool!
         
-    init(username: String, request: String, states: String, order: Double, phone: String, uid: String, ready: String) {
+    init(username: String, request: String, states: String, order: Double, phone: String, uid: String, ready: Bool) {
         
         self.userName = username
         self.requestTime = request

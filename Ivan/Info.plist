@@ -23,12 +23,12 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.562762536560-b8gsghip6ipmb7rvjkobc7ts95ja3k2b</string>
+				<string>com.googleusercontent.apps.562762536560-vftdt0cuj2jqu1oj59395t6hj4m7mp38</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
